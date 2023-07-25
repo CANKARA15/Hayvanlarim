@@ -1,0 +1,7 @@
+CREATE TABLE vaccine_pregnancy (
+    ear_tag_id INT PRIMARY KEY,
+    animal_age INT,
+    vaccine VARCHAR(100),
+    pregnancy_status BOOLEAN,
+    milk_amount DECIMAL(10, 2)
+);
